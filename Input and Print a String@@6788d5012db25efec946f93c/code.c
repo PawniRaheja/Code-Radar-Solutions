@@ -5,8 +5,8 @@
 }*/
 
 int main() {
-    string s="chitkara"
-    scanf("%s",&s)
-    printf("You entered: %s",s);
+    char a[100];
+    scanf("%s",&a)
+    printf("You entered: %s",a);
     return 0;
 }
