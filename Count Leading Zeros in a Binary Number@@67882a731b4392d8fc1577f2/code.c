@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int countleadingzeros(int num){
+/*int countleadingzeros(int num){
     if (num==0)return 32;
 
     int count =0;
@@ -15,5 +15,12 @@ int main() {
     int num;
     scanf("%d",&num);
     printf("%d\n",countleadingzeros);
+    return 0;
+}*/
+int main(){
+    int num;
+    scanf("%d",&num);
+    printf("%d\n",num==0?32:
+    __builtin_clz(num));
     return 0;
 }
