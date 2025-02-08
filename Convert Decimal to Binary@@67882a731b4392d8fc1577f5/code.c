@@ -10,12 +10,12 @@ void decimalToBinary(int num) {
     }
     
     while (num > 0) {
-        binary[i] = num & 1;  // Get the least significant bit
-        num >>= 1;            // Right shift by 1
+        binary[i] = num & 1;  
+        num >>= 1;            
         i++;
     }
     
-    // Print binary in reverse order
+    
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", binary[j]);
     }
