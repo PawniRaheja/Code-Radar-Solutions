@@ -1,15 +1,33 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int a,b,;
-    char c;
-    scanf("%d %d %c",&a,&b,&c);
-    switch (c){
-        case '+':printf("%d",a+b); break;
-        case '-' :printf("%d",a-b); break;
-        case '*':printf("%d",a*b); break;
-        case '/':printf("%d",a/b); break;
-        default : printf("error");
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+    char op;
+    
+    // Taking input
+    scanf("%d %d %c", &num1, &num2, &op);
+    
+    // Performing the operation based on the operator
+    switch(op) {
+        case '+': 
+            printf("%d", num1 + num2);
+            break;
+        case '-': 
+            printf("%d", num1 - num2);
+            break;
+        case '*': 
+            printf("%d", num1 * num2);
+            break;
+        case '/': 
+            if (num2 == 0)
+                printf("Error"); // Prevent division by zero
+            else
+                printf("%d", num1 / num2);
+            break;
+        default:
+            printf("Error"); // Invalid operator
     }
 
+    return 0;
 }
