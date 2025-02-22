@@ -12,4 +12,5 @@ int main(){
         default:printf("Invalid Grade");
         
     }
+    return 0;
 }
