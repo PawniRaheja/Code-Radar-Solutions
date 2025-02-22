@@ -16,6 +16,6 @@ int main(){
         case 10:printf("31"); break;
         case 11:printf("30"); break;
         case 12:printf("31"); break;
-        default:printf("Invalid Month");
+        default:printf("Invalid month");
     }
 }
