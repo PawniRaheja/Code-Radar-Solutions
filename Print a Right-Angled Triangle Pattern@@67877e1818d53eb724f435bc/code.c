@@ -1,5 +1,5 @@
 // Your code here...
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     int N,r,c;
     for(r=1;r<=N;r++){
