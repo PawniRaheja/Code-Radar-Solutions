@@ -8,7 +8,7 @@
         for(c=1;c<=n-r;c++){
             printf(" ");
         }
-        for(c=1;c<=n;c++){
+        for(c=1;c<=r;c++){
             printf("*");
         }
         printf("\n");
