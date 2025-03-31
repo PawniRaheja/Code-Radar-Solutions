@@ -11,8 +11,8 @@
         printf("\n");
     }
     return 0;*/
-    for(r=1;r<=n;r++){
-        for(c=n;c>=1;c--){
+    for(r=n;r>=1;r--){
+        for(c=1;c<=r;c++){
             printf("%d ",c);
         }
         printf("\n");
