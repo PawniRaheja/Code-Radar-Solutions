@@ -1,14 +1,13 @@
 // Your code here...
-#include<stdio.h>
+#iclude <stdio.h>
 int main(){
-    int r,c,N,j;
+    int r,c,N;
     scanf("%d",&N);
+
     for(r=1;r<=N;r++){
-        j=1;
-        for(c=N;c>=r;c--){
-            printf("* ");
+        for(c=1;c<=6-r;c++){
+            printf("*");
         }
         printf("\n");
     }
-    return 0;
 }
